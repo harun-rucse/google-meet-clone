@@ -1,0 +1,133 @@
+.main {
+  &__left {
+    &-heading {
+      font-size: 4.3rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 3.25rem;
+      padding-bottom: 0.5rem;
+      span {
+        display: block;
+        margin-top: 2rem;
+      }
+    }
+    &-paragraph {
+      margin-top: 2rem;
+      font-size: 1.9rem;
+      line-height: 2.5rem;
+      opacity: 0.9;
+      font-weight: 400;
+    }
+    & .separate {
+      border-bottom: 1px solid #838486;
+      opacity: 0.7;
+      margin-top: 12rem;
+    }
+    & .help-text {
+      display: flex;
+      font-size: 1.6rem;
+      text-decoration: none;
+      margin-top: 2rem;
+
+      & span {
+        color: rgb(32, 128, 238);
+      }
+
+      & p {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+  &__right {
+    width: 100%;
+
+    & .image-container {
+      display: flex;
+      justify-content: center;
+      &__image {
+        width: 330px;
+        height: 330px;
+      }
+    }
+    & .bg__text {
+      text-align: center;
+      font-size: 1.4rem;
+      margin-top: 1rem;
+
+      & h4 {
+        font-size: 2.2rem;
+        font-weight: 400;
+      }
+
+      & p {
+        margin: 0.5rem 16rem;
+      }
+    }
+  }
+}
+
+.meeting {
+  margin: 6rem 0;
+  display: flex;
+
+  &__btn {
+    border: none;
+    outline: none;
+    padding: 1.2rem 1.6rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 4px;
+
+    &-icon {
+      margin-right: 0.8rem;
+    }
+  }
+
+  &__input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.8;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  &__input-icon {
+    font-size: 2rem;
+    height: 100%;
+    color: #5f6368;
+    z-index: 2;
+    margin-right: -3.8rem;
+  }
+  &__input {
+    padding: 1.2rem 1rem;
+    padding-left: 4.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.9;
+
+    &:focus {
+      outline: none !important;
+      border: 2px solid rgb(32, 128, 238);
+    }
+  }
+  &__join-btn {
+    border: none;
+    outline: none;
+    padding: 1.2rem 1rem;
+    background: transparent;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: -1rem;
+    color: rgb(32, 128, 238);
+
+    &:hover {
+      background: rgba(12, 96, 192, 0.061);
+      color: rgb(32, 128, 238);
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  max-width: 120rem;
+  margin: 0.8rem auto;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem auto;
+}
+
+.meeting__btn-green {
+  background-color: rgb(32, 128, 238);
+}

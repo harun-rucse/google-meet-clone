@@ -1,0 +1,107 @@
+.meeting-info {
+  padding: 25px;
+  background: #fff;
+  position: absolute;
+  top: 5rem;
+  left: 50px;
+  width: 35rem;
+  border-radius: 1rem;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-size: 1.8rem;
+    color: #222;
+  }
+
+  &__icon {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.643);
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  &__btn {
+    outline: none;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    background: rgb(21, 130, 202);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background: #0a8fe6;
+    }
+
+    &-icon {
+      color: #fff;
+      margin-right: 5px;
+    }
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    color: #222;
+    opacity: 0.9;
+    margin-top: 1rem;
+  }
+  &__input-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background: #f1f3f4;
+    padding: 1.3rem 1.2rem;
+    border-radius: 5px;
+  }
+
+  &__input {
+    width: 90%;
+    background: #f1f3f4;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: #5f6368;
+  }
+  &__input-icon {
+    font-size: 2rem;
+    color: #5f6368;
+    margin-left: -2.7rem;
+    cursor: pointer;
+
+    &:active {
+      transform: scale(1.2);
+    }
+  }
+  &__security {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+
+    &-icon {
+      font-size: 2rem;
+      background: #81a4e6;
+      color: #fff;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+      padding: 7px;
+      width: 35px;
+      height: 27px;
+    }
+    &-text {
+      font-size: 1.2rem;
+      color: rgba(34, 34, 34, 0.732);
+    }
+  }
+  &__email {
+    font-size: 1.4rem;
+    color: rgba(34, 34, 34, 0.732);
+    margin: 1rem;
+    margin-top: 2rem;
+  }
+}
