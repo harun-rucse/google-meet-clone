@@ -15,7 +15,6 @@ const Home = () => {
   };
 
   const joinCall = () => {
-    console.log('click');
     window.location.assign(link);
   };
 

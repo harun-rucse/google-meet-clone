@@ -14,8 +14,6 @@ function CallPageHeader({
     setInterval(() => setCurrentTime(new Date()), 1000);
   }, []);
 
-  console.log({ isMessanger, messageAlert });
-
   return (
     <div className="call__header">
       <div className="call__header-icons-container">

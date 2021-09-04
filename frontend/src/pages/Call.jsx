@@ -76,9 +76,7 @@ const Call = () => {
             await postRequest('/call-id', payload);
           } else {
             // Emit code event
-            socket?.emit('code', signalData, (cbData) => {
-              console.log('code sent');
-            });
+            socket?.emit('code', signalData);
           }
         });
 
